@@ -66,8 +66,7 @@ clonedDinosaurs4 = [
 ```swift
 clonedDinosaurs.append("Stegosaurus")
 print(clonedDinosaurs)
-// prints "["Tyrannosaurus rex", "Velociraptor", "Triceratops", "Stegosaurus"]
-"
+// prints "["Tyrannosaurus rex", "Velociraptor", "Triceratops", "Stegosaurus"]"
 
 clonedDinosaurs[0] = "T-rex"
 let firstDino = clonedDinosaurs[0]
