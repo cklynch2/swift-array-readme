@@ -84,15 +84,27 @@ shoppingList4 = ["Vanilla", "Pancakes", "Milk"]
 * I want them to be able to understand all of the following, so it should be broken down into pieces and explained thoroughly, making no assumptions explaining everything in great detail:
 
 ```swift
-clonedDinosaurs.append("Stegosaurus")
-print(clonedDinosaurs)
-// prints "["Tyrannosaurus rex", "Velociraptor", "Triceratops", "Stegosaurus"]"
+var myShoppingList = ["Peanut Butter", "Jelly", "Bread", "Strawberries"]
 
-clonedDinosaurs[0] = "T-rex"
-let firstDino = clonedDinosaurs[0]
-print(firstDino)
-// prints "T-rex"
+myShoppingList.append("Bananas")
+
+print(myShoppingList)
+// prints "["Peanut Butter", "Jelly", "Bread", "Strawberries", "Bananas"]"
 ``` 
-* Challenge the student to write a function that takes in an `Array` as an argument, the `Array`'s type is `[String]`, where they are asked to grab the first element in the array (at index 0) and see if it's value is equal to "T-rex". If so, return `true`.. if not, return `false`.
+* This should also be explained in detail, formulating a sentence as to what is going on that way the student can see the proper way to structure a sentence as to what's happening here. This will help them be able to Google things as well as challenge them to see if they REALLY do understand what they're seeing:
+
+```swift
+myShoppingList[0] = "Almond Butter"
+
+let firstItem = myShoppingList[0]
+
+print(firstItem)
+// prints "Almond Butter"
+
+print(myShoppingList)
+// prints "["Almond Butter", "Jelly", "Bread", "Strawberries", "Bananas"]"
+```
+
+* Challenge the student to write a function that takes in an `Array` as an argument, the `Array`'s type is `[String]`, where they are asked to grab the first element in the array (at index 0) and see if it's value is equal to "Bread". If so, return `true`.. if not, return `false`.
 
 <a href='https://learn.co/lessons/Array' data-visibility='hidden'>View this lesson on Learn.co</a>
