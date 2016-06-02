@@ -1,6 +1,8 @@
 # Array
 
-![Jurassic Park](https://www.gapyear.com/images/advertiser_files/5578279cf178e.jpg)
+![Jake](https://media.giphy.com/media/lUQxdO6Y7Vmx2/giphy.gif)
+
+> Dude, suckin' at something is the first step towards being sorta good at something
 
 ## Learning Objectives - The student should be able to..
 
@@ -13,14 +15,31 @@ let name: String = "Dr. Alan Grant"
 * Explain that `Array` is a *collection type* and that `Array`'s are ordered collections of values.
 * Explain that *mutable* means that you can change (or *mutate*) the collection **after** it is created by adding, removing, or changing items in the collection. This is done so using `var` in the declaration.
 * Explain that *immutable* means that the collections size and contents **cannot** be changed. This is done so using `let` in the declaration.
-* Can create an array as follows. I'm unsure of the exact style to introduce to the student here, do we do it like so (is this *best* practice?).
+* Can create an array as follows and describe this as declaring an array of type `[String]` which contains two `String` literal values ("Eggs & "Milk").
 
 ```swift
-var clonedDinosaurs = [
-    "Tyrannosaurus rex",
-    "Velociraptor",
-    "Triceratops",
-]
+var shoppingList = ["Eggs", "Milk"]
+```
+* Can access the values inside of an Array using *subscript syntax*.  
+
+```swift
+let itemAtIndexZero = shoppingList[0]
+let itemAtIndexOne = shoppingList[1]
+
+print(itemAtIndexZero)
+// prints "Eggs"
+
+print(itemAtIndexOne)
+// prints "Milk"
+```
+
+* Can change an existing value at a given index using subscript syntax:
+
+```swift
+shoppingList[0] = "Peanut Butter"
+
+print(shoppingList)
+// prints "["Peanut Butter", "Milk"]"
 ```
 
 
@@ -38,28 +57,29 @@ var clonedDinosaurs = [
 
 ## Outline / Notes
 
-*  I like the idea of putting the student in the mind of someone running Jurassic Park. If they want to keep track of the dinosaurs they've cloned (so far), how can they do that? With an `Array`.
+*  I like the idea of introducing Array's by referring to a shopping list, it's what Apple did in their documentaiton and I think... if the student is to then read along with the Apple documentation after reading the multiple units on Collections - it will help for them to see it again (I think).
 * The following is what I would like to expose to the student in this readme:
 
 ```swift
-var clonedDinosaurs = [
-    "Tyrannosaurus rex",
-    "Velociraptor",
-    "Triceratops"
-]
+var shoppingList = ["Barbecue sauce", "Dark rum", "Honey", "Pork tenderloin", "Hamburger buns"]
+// Here we're declaring an array named shoppingList2 of type [String] with five String values.
 
-var clonedDinosaurs2: [String] = [
-    // dinosaurs
-]
+print(shoppingList)
+// prints "["Barbecue sauce", "Dark rum", "Honey", "Pork tenderloin", "Hamburger buns"]"
 
-var clonedDinosaurs3: Array<String> = [
-    // dinosaurs
-]
 
-var clonedDinosaurs4: [String]
-clonedDinosaurs4 = [
-    // dinosaurs
-]
+var shoppingList2: [String] = ["Cookie mix", "Milk" ]
+// Here we're declaring an array named shoppingList2 of type [String] with two String values, "Cookie mix" & "Milk".
+
+
+var shoppingList3: Array<String> = ["Cookie dough", "Icecream"]
+// Here we're declaring an array named shoppingList3 of type [String] with two String values, "Cookie dough" & "Icecream".
+
+
+var shoppingList4: [String]
+
+shoppingList4 = ["Vanilla", "Pancakes", "Milk"]
+// Here we're declaring an array named shoppingList4 of type [String] with two String values then in the following line initializing it with three String values, "Vanilla", "Pancakes" and "Milk".
 ```
 * I want them to be able to understand all of the following, so it should be broken down into pieces and explained thoroughly, making no assumptions explaining everything in great detail:
 
@@ -73,6 +93,6 @@ let firstDino = clonedDinosaurs[0]
 print(firstDino)
 // prints "T-rex"
 ``` 
-* Challenge the student to write a function that takes in an `Array` as an argument, the `Array`'s type is `[String]`, where they are asked to grab the first element in the array (at index 0) and see if it's value is equal to "T-rex". If so, return `true`.. if not, return `false`. The student might not know at this point what `==` is or what it does, it might have to be introduced the for the first time here (OR it might have already been introduced when we first bring up `if` statments which is a lab or two prior to this one). 
+* Challenge the student to write a function that takes in an `Array` as an argument, the `Array`'s type is `[String]`, where they are asked to grab the first element in the array (at index 0) and see if it's value is equal to "T-rex". If so, return `true`.. if not, return `false`.
 
 <a href='https://learn.co/lessons/Array' data-visibility='hidden'>View this lesson on Learn.co</a>
