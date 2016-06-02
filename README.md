@@ -81,6 +81,8 @@ var shoppingList4: [String]
 shoppingList4 = ["Vanilla", "Pancakes", "Milk"]
 // Here we're declaring an array named shoppingList4 of type [String] with two String values then in the following line initializing it with three String values, "Vanilla", "Pancakes" and "Milk".
 ```
+* I don't think we should dwell too much on `Array<String>`. This will be the first time they see `Array`'s so I think it's more important that they understand WHY they are using `Array`'s and WHAT problem does using `Array`'s solve. 
+* Also, could they make an `Array` of `Int`'s? YES!
 * I want them to be able to understand all of the following, so it should be broken down into pieces and explained thoroughly, making no assumptions explaining everything in great detail:
 
 ```swift
