@@ -144,11 +144,11 @@ var list = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 In this case, you are creating a variable with the `var` keyword called 'list'. Swift can infer that `[String]` is the correct type for the `list` variable, based on it's content.
 
-If you option click the `list` variable you can check Swift's guess.
+Type the above into a Playground and if you option click the `list` variable you can see Swift's guess.
 
 ![Inferred Type](inferred_type.png)
 
-To be more precise, you can declare the type of values allowed in the array explicitly:
+If you wanted to be more precise when creating an array, you can declare the type of values allowed in the array explicitly:
 
 ```swift
 var shoppingList: [String] = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
