@@ -33,8 +33,6 @@ let ingredient5 = "Tomatoes"
 
 And then write code that passes these variables one at a time. This will get messy quickly. What if you forget an ingredient or need to add a new one? In the real world, you would write down all your ingredients on one shopping list. With Swift, like most programming languages, you achieve the same using an _array_. An array allows a variable to contain a _collection_ of values of the same type.
 
-Arrays share similar concepts to other collection types available in Swift and you will cover these later in the course. For now it's important to know that an array is an _ordered_ collection of values, i.e. that every value has a particular place (or _index_) in the collection.
-
 ## Creating an Array
 
 Here's how to create an array of values in Swift which represents the ingredients of a sandwich.
@@ -134,6 +132,8 @@ print(secondItem)
 ```
 
 The syntax above is called _subscript_. The name of the array is `shoppingList` and you want to access the second item in the array by using square brackets and the position of the value, i.e. `[1]`.
+
+Arrays share similar concepts to other collection types available in Swift and you will cover these later in the course. For now it's important to know that an array is an _ordered_ collection of values, i.e. that every value has a particular place (or _index_) in the collection.
 
 ## Changing Items in an Array
 
