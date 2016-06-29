@@ -6,10 +6,9 @@
 
 ## Learning Objectives
 
-* Add things here.
-
-
---------------------------------------------------------------------------------
+* Define and create an array 
+* Access items in an array
+* Change items in an array
 
 ## Arrays
 
