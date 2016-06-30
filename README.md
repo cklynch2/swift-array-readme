@@ -115,14 +115,11 @@ Continuing with our example, you want to know what the second item on the shoppi
 
 But, as an array starts from 0, to be precise, it's actually:
 
-<ol start="0">
-  <li>Bread</li>
-  <li><b>Butter</b></li>
-  <li>Cheese</li>
-  <li>Lettuce</li>
-  <li>Tomatoes</li>
-</ol>
-
+  **0** Bread
+  **1** Butter
+  **2** Cheese
+  **3** Lettuce
+  **4** Tomatoes
 
 
 In the `shoppingList` array, if you want to print the value of the item in the second position, starting from 0, this is position 1\. Assign the value in that position to a variable, and print the value of the variable:
