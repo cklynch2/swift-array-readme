@@ -125,7 +125,7 @@ But, as an array starts from 0, to be precise, it's actually:
 ```
 
 
-In the `shoppingList` array, if you want to print the value of the item in the second position, starting from 0, this is position 1\. Assign the value in that position to a variable, and print the value of the variable:
+In the `shoppingList` array, if you want to print the value of the item in the second position, starting from 0, this is position 1. Assign the value in that position to a variable, and print the value of the variable:
 
 ```swift
 let secondItem = shoppingList[1]
