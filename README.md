@@ -121,7 +121,7 @@ print(secondItem)
 // prints "Butter"
 ```
 
-The syntax above is called _subscript_. The name of the array is `shoppingList` and you want to access the second item in the array by using square brackets and the position of the value, i.e. `[1]`.
+The syntax above is called _subscript_. The name of the array is `shoppingList` and you want to access the second item in the array by using square brackets and the position of the value, i.e. [1].
 
 Arrays share similar concepts to other collection types available in Swift and you will cover these later in the course. For now it's important to know that an array is an _ordered_ collection of values, i.e. that every value has a particular place (or _index_) in the collection.
 
