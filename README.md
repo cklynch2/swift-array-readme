@@ -1,8 +1,7 @@
 # Array
 
-![Jake](https://media.giphy.com/media/lUQxdO6Y7Vmx2/giphy.gif)
 
-> Dude, suckin' at something is the first step towards being sorta good at something. -[Jake](http://adventuretime.wikia.com/wiki/Jake)
+> Dude, suckin' at something is the first step towards being sorta good at something.  -[Jake](http://adventuretime.wikia.com/wiki/Jake)
 
 ## Learning Objectives
 
@@ -23,7 +22,7 @@ Variables only allow you to store one item of information at a time. What if we 
 You could create multiple variables to represent the ingredients:
 
 ```swift
-let ingredient1 =  "Bread"
+let ingredient1 = "Bread"
 let ingredient2 = "Butter"
 let ingredient3 = "Cheese"
 let ingredient4 = "Lettuce"
@@ -56,9 +55,7 @@ Here you are creating a variable with the `var` keyword called 'shoppingList', s
 
 Or alternatively (but less used):
 
-```swift
-var shoppingList: Array<String> = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
-```
+![arrayThinga](http://i.imgur.com/RdyJI34.png)
 
 To be clear, there is **no** different between this method of creating an array and the previous, but simpler method.
 
@@ -107,24 +104,12 @@ Like any series of items in a list, items in an array have a number associated w
 
 Continuing with our example, you want to know what the second item on the shopping list is, with a normal list this would be:
 
-```swift
-1. Bread
-2. Butter
-3. Cheese
-4. Lettuce
-5. Tomatoes
-```
+![oneThing](http://i.imgur.com/DY8qbZV.png)
 
 But, as an array starts from 0, to be precise, it's actually:
 
  
- ```swift
- 0 Bread
- 1 Butter
- 2 Cheese
- 3 Lettuce
- 4 Tomatoes
-```
+![zeroThing](http://i.imgur.com/d0ztePC.png)
 
 
 In the `shoppingList` array, if you want to print the value of the item in the second position, starting from 0, this is position 1. Assign the value in that position to a variable, and print the value of the variable:
