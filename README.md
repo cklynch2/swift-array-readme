@@ -44,7 +44,7 @@ In this case, you are creating a variable with the `var` keyword called 'list'. 
 
 Type the above into a Playground and if you option click the `list` variable you can see Swift's guess.
 
-![Inferred Type](http://i.imgur.com/cO7DsAT.png)
+![Inferre](http://i.imgur.com/cO7DsAT.png)
 
 If you wanted to be more precise when creating an array, you can declare the type of values allowed in the array explicitly:
 
@@ -108,7 +108,7 @@ Like any series of items in a list, items in an array have a number associated w
 Continuing with our example, you want to know what the second item on the shopping list is, with a normal list this would be:
 
 1. Bread
-2. **Butter**
+2. Butter
 3. Cheese
 4. Lettuce
 5. Tomatoes
