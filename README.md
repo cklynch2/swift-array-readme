@@ -44,7 +44,7 @@ In this case, you are creating a variable with the `var` keyword called 'list'. 
 
 Type the above into a Playground and if you option click the `list` variable you can see Swift's guess.
 
-![Inferred Type](inferred_type.png)
+![Inferred Type](http://i.imgur.com/cO7DsAT.png)
 
 If you wanted to be more precise when creating an array, you can declare the type of values allowed in the array explicitly:
 
@@ -142,7 +142,7 @@ Arrays share similar concepts to other collection types available in Swift and y
 
 You have decided instead to make a ham sandwich, so you need to change the 'Cheese' value in the array. Again you need to know the position of 'Cheese' and change it by assigning a new value.
 
-> What index is the 'Cheese' value at?
+What index is the 'Cheese' value at?
 
 Remember, that Swift counts from '0', so the value of 'Cheese' is actually at position '2', three values into the array.
 
