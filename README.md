@@ -1,8 +1,5 @@
 # Array
 
-
-> Dude, suckin' at something is the first step towards being sorta good at something.  -[Jake](http://adventuretime.wikia.com/wiki/Jake)
-
 ## Learning Objectives
 
 * Define and create an array 
@@ -146,4 +143,3 @@ print(shoppingList)
 // prints ["Bread", "Butter", "Ham", "Lettuce", "Tomatoes"]
 ```
 
-[View this lesson on Learn.co](https://learn.co/lessons/Array)
