@@ -117,11 +117,11 @@ But, as an array starts from 0, to be precise, it's actually:
 
  
  ```
- **0** Bread
-  **1** Butter
-  **2** Cheese
-  **3** Lettuce
-  **4** Tomatoes
+ 0 Bread
+ 1 Butter
+ 2 Cheese
+ 3 Lettuce
+ 4 Tomatoes
 ```
 
 
