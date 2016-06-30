@@ -2,7 +2,7 @@
 
 ![Jake](https://media.giphy.com/media/lUQxdO6Y7Vmx2/giphy.gif)
 
-> Dude, suckin' at something is the first step towards being sorta good at something
+> Dude, suckin' at something is the first step towards being sorta good at something. -[Jake](http://adventuretime.wikia.com/wiki/Jake)
 
 ## Learning Objectives
 
@@ -44,7 +44,7 @@ In this case, you are creating a variable with the `var` keyword called 'list'. 
 
 Type the above into a Playground and if you option click the `list` variable you can see Swift's guess.
 
-![Inferre](http://i.imgur.com/cO7DsAT.png)
+![Infferre](http://i.imgur.com/cO7DsAT.png)
 
 If you wanted to be more precise when creating an array, you can declare the type of values allowed in the array explicitly:
 
@@ -107,16 +107,18 @@ Like any series of items in a list, items in an array have a number associated w
 
 Continuing with our example, you want to know what the second item on the shopping list is, with a normal list this would be:
 
+```swift
 1. Bread
 2. Butter
 3. Cheese
 4. Lettuce
 5. Tomatoes
+```
 
 But, as an array starts from 0, to be precise, it's actually:
 
  
- ```
+ ```swift
  0 Bread
  1 Butter
  2 Cheese
