@@ -143,3 +143,4 @@ print(shoppingList)
 // prints ["Bread", "Butter", "Ham", "Lettuce", "Tomatoes"]
 ```
 
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-array-readme'>Swift Array</a> on Learn.co and start learning to code for free.</p>
