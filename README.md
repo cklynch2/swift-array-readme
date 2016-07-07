@@ -54,7 +54,7 @@ Or alternatively (but less used):
 
 ![arrayThinga](http://i.imgur.com/RdyJI34.png)
 
-To be clear, there is **no** different between this method of creating an array and the previous, but simpler method.
+To be clear, there is **no** difference between this method of creating an array and the previous, but simpler method.
 
 Often an array is initialized first and populated later. Say for example you want to make a shopping list for your weekly shop, but need to wait for your family before filling it with items.
 
@@ -142,3 +142,5 @@ If you now print the array, the values will have changed:
 print(shoppingList)
 // prints ["Bread", "Butter", "Ham", "Lettuce", "Tomatoes"]
 ```
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-array-readme'>Array </a> on Learn.co and start learning to code for free.</p>
