@@ -97,7 +97,7 @@ var mixedArray = [10, "cheese", 15, 2, "Bread"]
 
 ## Accessing Items in an Array
 
-Like any series of items in a list, items in an array have a number associated with them that represents their place within it. In programming, this is called an 'index'. Remember, that whilst we start counting from 1, many programming languages start from 0, making the first item in an array actually 'at index 0'.
+Like any series of items in a list, items in an array have a number associated with them that represents their place within it. In programming, this is called an 'index'. Remember, that whereas we start counting from 1, many programming languages start from 0, making the first item in an array actually 'at index 0'.
 
 Continuing with our example, you want to know what the second item on the shopping list is, with a normal list this would be:
 
@@ -142,3 +142,5 @@ If you now print the array, the values will have changed:
 print(shoppingList)
 // prints ["Bread", "Butter", "Ham", "Lettuce", "Tomatoes"]
 ```
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-array-readme'>Array </a> on Learn.co and start learning to code for free.</p>
